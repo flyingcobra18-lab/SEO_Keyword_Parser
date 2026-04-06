@@ -60,7 +60,7 @@ cp .env.example .env
 ```env
 YANDEX_LOGIN=login@yandex.ru
 YANDEX_PASSWORD=password
-REGION_ID=213           # Москва
+REGION_ID=54           # Екатеринбург
 WORDSTAT_PAGES=5        # 5 страниц × 50 ключей = 250 ключей на запрос
 SERP_TOP_N=10
 CLUSTERS_N=20
