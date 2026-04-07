@@ -35,18 +35,18 @@ load_dotenv()
 
 # ─── Настройки ───────────────────────────────────────────────────────────────
 
-SEED_KEYWORDS = [
-    "купить ноутбук",
-    "ноутбук для работы",
-    "игровой ноутбук",
-    "ноутбук недорого",
-    "лучший ноутбук 2024",
+SEED_KEYWORDS = [ # тут заполняем своими SEED словами
+    "купить автомобиль",
+    "автомобиль для работы",
+    "автомобиль кроссовер",
+    "автомобиль у официального дилера,
+    "лучший кроссовер 2026 года",
 ]
 
 CONFIG = {
     "yandex_login":    os.getenv("YANDEX_LOGIN", ""),
     "yandex_password": os.getenv("YANDEX_PASSWORD", ""),
-    "region_id":       int(os.getenv("REGION_ID", 213)),   # 213=Москва, 2=СПб
+    "region_id":       int(os.getenv("REGION_ID", 54)),   # 213=Москва, 54=Екатеринбург
     "serpstat_key":    os.getenv("SERPSTAT_API_KEY", ""),
     "wordstat_pages":  int(os.getenv("WORDSTAT_PAGES", 3)),
     "serp_top_n":      int(os.getenv("SERP_TOP_N", 10)),
